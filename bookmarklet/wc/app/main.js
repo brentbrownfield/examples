@@ -1,4 +1,5 @@
-javascript:(function(){
+/*jshint strict:false, browser:true */
+(function bookmarklet() {
 	window.wordCounts = {};
     window.maxCount = 0;
 
@@ -104,4 +105,4 @@ javascript:(function(){
 
     sort();
 	displayResults();
-})();
+}());
